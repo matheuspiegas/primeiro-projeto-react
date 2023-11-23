@@ -6,6 +6,6 @@ import { Home } from "./components/templates/Home";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Home skip={2}/>
   </React.StrictMode>
 );
